@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,600&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,600&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(Tet.jpg);
+}
+
+.wrapper
+{
+    position : relative;
+    width: 600px;
+    height: 400px;
+    background: yellow;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+i {
+    font-size: 7.5em;
+    color: red;
+    border: 5px solid transparent;
+    outline: 3px solid red;
+    border-radius: 50%;
+}
+
+h2{
+    font-size: 3em;
+    color:red;
+    margin: 15px 0;
+}
+
+.btn-group
+{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-size: 1.2em;
+    color: pink;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid red;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+
+button:nth-child(1) {
+    margin-left: -200px;
+    background: red;
+}
+
+button:nth-child(2) {
+    margin-right: -200px;
+    color: red;
+    background-color: pink;
+    
+}
